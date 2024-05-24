@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint"content="width=device-width, initial-scale=1.0">
+        <title>MSKA Swimming Classes</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .location-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: flex-start;
+                margin: 20px 0;
+            }
+            .map-container {
+                flex: 1;
+                min-width: 300px;
+                margin: 10px;
+            }
+            .schedule-container {
+                flex: 1;
+                min-width: 300px;
+                margin: 10px;
+                align-self: flex-start; /* Align the schedule container to the start */
+                text-align: right; /* Align text to the right */
+                
+            }
+            .schedule-container h3 {
+                margin-bottom: 10px;
+                text-align: right;
+            }
+            .schedule-container ul {
+                list-style-type: none;
+                padding: 0;
+                text-align: right; /* Align list text to the right */
+            }
+            .schedule-container ul li {
+                margin-bottom: 10px;
+            }
+            .about-heading {
+                text-align: left;
+            }
+            .location-heading {
+                margin-left: 3.5cm;
+            }
+    
+            /* Add glow effect to trainer images */
+            .instructor img {
+                border-radius: 30px;
+                box-shadow: 0 0 15px rgba(44, 228, 7, 0.6);  /* Adjust color and size as needed */
+                transition: box-shadow 0.3s ease-in-out;
+            }
+            .instructor img:hover {
+                box-shadow: 0 0 25px rgba(0, 255, 0, 0.8); /* Glow intensifies on hover */
+            }
+            footer {
+                background: #0073e6;
+                color: #fff;
+                padding: 1em 0;
+                text-align: center;
+            }
+            header h1 {
+                margin-left: 50px; /* Add left margin to the h1 */
+            }
+            
+         
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" alt="Logo" style="height: 100px; margin-right: 0px; vertical-align: middle;">
+            <h1>Welcome to Our MSKA Swimming Classes</h1>
+            <nav>
+                <a href="#about"> About us</a>
+                <a href="#classes">Classes</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <section id="pool">
+            <div class="pool-content">
+                <p>Welcome to our state-of-the-art swimming pool! Our facility offers the best environment for learning to swim, practicing, and enjoying aquatic activities. With a temperature-controlled environment and professional lifeguards on duty, we ensure a safe and enjoyable experience for swimmers of all levels.</p>
+                <img src="saheb.jpg" alt="Swimming Pool">
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="pic1.jpg" alt="Gallery Image 1"></div>
+                <div class="gallery-item"><img src="pic2.jpg" alt="Gallery Image 2"></div>
+                <div class="gallery-item"><img src="pic3.jpg" alt="Gallery Image 3"></div>
+                
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2 class="about-heading">About Us</h2>
+            <p>Dive into a world where water ignites passion, and every stroke tells a story. Here at Swimming Classes, we believe in the transformative power of swimming. From beginners finding their aquatic feet to seasoned swimmers chasing their next victory, our waters embrace all.
+    
+                In the heart of our facility lies more than just a pool; it's a sanctuary where dreams take flight, and goals are conquered stroke by stroke. Our team of dedicated instructors isn't just here to teach; they're here to inspire, to guide, and to celebrate every breakthrough, big or small.
+                
+                Beyond the lanes, we foster a community where friendships ripple and laughter echoes off the walls. Whether you're seeking solace in the serenity of water or the thrill of competition, you'll find a home here.
+                
+                Welcome to a place where the water isn't just a medium; it's a canvas for self-discovery, a pathway to wellness, and a source of endless joy. Welcome to our MSKA Swimming classes, where every splash is a step towards a brighter, stronger, and more buoyant you.
+                
+                Join us, and together, let's make waves.</p>
+        </section>
+    
+        <section id="teachers">
+            <h2>Our Teachers</h2>
+            <div class="teacher">
+                <img src="Dilip sir.jpg" alt="Teacher 1">
+                <h3>Dilip Jana</h3>
+            </div>
+            <div class="teacher">
+                <img src="Brusli sir.jpg" alt="Teacher 2">
+                <h3>Brusli Jana</h3>
+            </div>
+            <div class="teacher">
+                <img src="deep.jpg" alt="Teacher 2">
+                <h3>Deep Mondal</h3>
+            </div>
+        </section>
+        
+        <section id="instructors">
+            <h2>Our Trainers</h2>
+            <div class="instructor">
+                <a href="https://jyotishyadav.netlify.app/"><img src="me.jpg" alt="Instructor 1"></a>
+                <h3>Jyotish Yadav</h3>
+            </div>
+            <div class="instructor">
+                <img src="shubham.jpg" alt="Instructor 2">
+                <h3>Shubham Chowdhury</h3>
+            </div>
+            <div class="instructor">
+                <img src="pratham.jpg" alt="Updating soon">
+                <h3>Pratham Keshari</h3>
+            </div>
+            <div class="instructor">
+                <img src="rabi.jpg" alt="Instructor 4">
+                <h3>Rabi Prasad Keshari</h3>
+            </div>
+        </section>
+    
+        <section id="classes">
+            <h2 class="about-heading">Classes</h2>
+            <div class="class">
+                <h3>Beginner Classes</h3>
+                <p>In our Beginner Classes, we gently introduce you to the enchanting world of swimming, starting with the fundamental art of floating. Through patient guidance and encouragement, we'll help you embrace the buoyant serenity of the water, igniting a passion for swimming that lasts a lifetime.</p>
+            </div>
+            <br>
+            <div class="class">
+                <h3>Intermediate Classes</h3>
+                <p>In our Intermediate Classes, we dive deeper into the art of swimming, focusing on refining your technique and building endurance. From perfecting your strokes to mastering advanced breathing techniques, every lesson is a step closer to unlocking your full aquatic potential.</p>
+            </div>
+            <br>
+            <div class="class">
+                <h3>Advanced Classes</h3>
+                <p>In our Advanced Classes, we elevate swimming to an art form, focusing on precision, efficiency, and fluidity in every movement. From perfecting your technique to mastering advanced drills, each session is an opportunity to refine your skills and transcend the ordinary.</p>
+            </div>
+        </section>
+    
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" required>
+                
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="Phone" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="Message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    
+       <section id="location">
+            <h2 class="location-heading">Location</h2>
+            <div class="location-container">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.899155122193!2d88.42566231493218!3d22.928312785021885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f894442efbe2cf%3A0x71a04d75456e1b8e!2sHalisahar%20Saheb%20Pukur!5e0!3m2!1sen!2sbd!4v1642938784317!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="schedule-container">
+                    <h3>Class Schedule</h3>
+                    <ul>
+                        <li>Saturday: 7:00 AM - 10:00 AM</li>
+                        <li>Sunday: 7:00 AM - 10:00 AM</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 Created by Jyotish Yadav. All rights reserved.</p>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
